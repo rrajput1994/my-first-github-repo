@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.nav {
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 10px;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+}
+
+.hero {
+    background-color: #c5cae9;
+    padding: 50px 15px;
+    
+}
+.hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.hero h1 {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 15px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.hero a {
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.features {
+    background-color: #e8eaf6;
+    padding: 50px 15px;
+
+}
+
+.features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 30px;
+}
+.feature-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #ddd;
+    background-color: #fff;
+}
+.feature-content {
+    padding: 15px;
+}
+.feature-item .food-imgs {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.feature-item .food-imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.feature-item h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0 0 10px;
+    color: rgb(25, 25, 161);
+}
+.feature-item p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 0 10px;
+    color: #333;
+    line-height: 26px;
+}
+
+.footer {
+    padding: 20px 15px;
+    background-color: #e3e3e3;
+    text-align: center
+}
