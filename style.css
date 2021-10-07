@@ -20,6 +20,7 @@ body {
 .logoText span {
     font-style: oblique;
     font-weight: bold;
+    color: tomato;
 }
 .nav {
     list-style:none;
